@@ -58,7 +58,7 @@ int main()
         buffer[len] = '\0';
         ime_prezime = buffer;
         delete[] buffer;
-        cout << ime_prezime << " " << prosjek << endl;
+        
     }
     datotekaIn.close();
     return 0;
